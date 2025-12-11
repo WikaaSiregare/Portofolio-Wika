@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@keyframes rotateRev {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotateRev {
+  animation: rotateRev 18s linear infinite;
+}
+
+.neon-purple {
+  color: #b794f4; /* ungu soft */
+  text-shadow:
+    0 0 40px #7c3aed,
+    0 0 80px #7c3aed;
+}
