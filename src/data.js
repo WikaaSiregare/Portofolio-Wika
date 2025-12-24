@@ -25,13 +25,6 @@ export const listTools = [
     dad: "200",
   },
   {
-    id: 5,
-    gambar: "/assets/tools/tailwind.png",
-    nama: "Tailwind CSS",
-    ket: "CSS Framework",
-    dad: "500",
-  },
-  {
     id: 6,
     gambar: "/assets/tools/bootstrap.png",
     nama: "Bootstrap",
@@ -56,49 +49,49 @@ export const listTools = [
     id: 9,
     gambar: "/assets/tools/github.png",
     nama: "Github",
-    ket: "Repository Hosting",
+    ket: "Version Control & Code Hosting Platform",
     dad: "900",
   },
   {
     id: 11,
     gambar: "/assets/tools/canva.png",
     nama: "Canva",
-    ket: "Design Platform",
+    ket: "Graphic Design Platform",
     dad: "1100",
   },
   {
     id: 12,
     gambar: "/assets/tools/figma.png",
     nama: "Figma",
-    ket: "Design Tool",
+    ket: "UI/UX Design Tool",
     dad: "1200",
   },
     {
     id: 13,
     gambar: "/assets/tools/collab.png",
     nama: "collab",
-    ket: "coding & data science too",
+    ket: "Cloud-Based Coding Environment for Data Science & ML",
     dad: "1300",
   },
   {
     id: 14,
     gambar: "/assets/tools/balsamiq.png",
     nama: "Balsamiq",
-    ket: "Wireframe",
+    ket: "WireframeTool",
     dad: "1400",
   },
     {
     id: 15,
     gambar: "/assets/tools/css.png",
     nama: "CSS",
-    ket: "Javascript Runtime",
+    ket: "Style Sheet Language for Web Design",
     dad: "1500",
   },
   {
     id: 9,
     gambar: "/assets/tools/html.png",
     nama: "HTML",
-    ket: "Repository Hosting",
+    ket: "Markup Language for Web Structure",
     dad: "1600",
   },
   {
@@ -112,14 +105,14 @@ export const listTools = [
     id: 12,
     gambar: "/assets/tools/powerbi.png", // SEHARUSNYA SUDAH BENAR
     nama: "Power Bi",
-    ket: "Design Tool",
+    ket: "Business Intelligence & Data Visualization Tool",
     dad: "1800",
 },
 {
     id: 13,
     gambar: "/assets/tools/lookerstudio.png", // SEHARUSNYA SUDAH BENAR
     nama: "Looker Studio",
-    ket: "coding & data science too",
+    ket: "Data Visualization & Reporting Tool",
     dad: "1900",
 },
 {
@@ -127,7 +120,7 @@ export const listTools = [
     // INI PERUBAHANNYA: Mengubah postgresql.png menjadi postgree.png
     gambar: "/assets/tools/postgresql.png", 
     nama: "PostgreSQL", // Nama tetap bisa PostgreSQL
-    ket: "Wireframe",
+    ket: "Relational Database Management System (RDBMS)",
     dad: "2000",
 },
 ];

@@ -101,8 +101,11 @@
         />
 
         <p className="text-base/loose mb-10 text-gray-700 text-justify font-bold mb-1 animate__animated animate__fadeInUp animate__delay-3s">
-          Halo! Saya Wika Romauli Siregar, mahasiswa D3 Teknologi Informasi di IT Del yang berkomitmen dan antusias dalam dunia pengembangan perangkat lunak. Ketertarikan saya berfokus pada Front-end, UI/UX Design, Quality
-Assurance, serta Data Analysis. Saya memiliki kemampuan dalam mengoordinasikan, dan mengelola suatu proyek, serta bersemangat terlibat di setiap tahap pengembangan perangkat lunak mulai dari perencanaan, pembuatan, hingga proses pengujian. Saya dikenal sebagai individu yang dapat diandalkan, bekerja secara efisien, dan mampu menyelesaikan tugas secara optimal. Dengan ketekunan, motivasi tinggi, dan kerjasama kerja yang kuat, saya selalu berupaya memberikan hasil yang maksimal.
+          Hello! I'm Wika Romauli Siregar, a D3 Information Technology student at IT Del who is committed and enthusiastic about the world 
+          of software development. My interests focus on Front-end, UI/UX Design, Quality Assurance, and Data Analysis. I have the ability 
+          to coordinate and manage a project, and am passionate about being involved in every stage of software development from planning, 
+          creation, to the testing process. I am known as a reliable individual, working efficiently, and able to complete tasks optimally.
+           With perseverance, high motivation, and strong teamwork, I always strive to deliver maximum results.
 
         </p>
 
@@ -116,7 +119,7 @@ Assurance, serta Data Analysis. Saya memiliki kemampuan dalam mengoordinasikan, 
 
           <div>
             <h1 className="text-4xl mb-1 text-black">
-              4<span className="text-violet-500">+</span>
+              0<span className="text-violet-500">+</span>
             </h1>
             <p className="text-black">Tahun Pengalaman</p>
           </div>
@@ -125,13 +128,6 @@ Assurance, serta Data Analysis. Saya memiliki kemampuan dalam mengoordinasikan, 
 
       {/* === KANAN: KONTAK === */}
       <div className="flex flex-col gap-5">
-
-        {/* TELEPON */}
-        <div className="bg-#fffff border border-violet-700/40 rounded-xl p-5 transition-all duration-300 hover:scale-[1.01] hover:-translate-y-1 hover:shadow-2xl hover:shadow-violet-500/50 hover:border-violet-500
-        ">
-          <p className="text-sm opacity-70 mb-1  text-black">TELEPON</p>
-          <p className="text-lg font-medium  text-black">+62 812-6517-4861</p>
-        </div>
 
         {/* EMAIL */}
         <div className="bg-#fffff border border-violet-700/40 rounded-xl p-5 transition-all duration-300 hover:scale-[1.01] hover:-translate-y-1 hover:shadow-2xl hover:shadow-violet-500/50 hover:border-violet-500
