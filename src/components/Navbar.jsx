@@ -49,7 +49,7 @@ useEffect(() =>{
         after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-violet-300 after:transition-all after:duration-300 after:w-0 group-hover:after:w-full
       "
     >
-      Beranda
+      Home page
     </a>
           </li>
           
@@ -70,7 +70,7 @@ useEffect(() =>{
           after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-violet-300 after:transition-all after:duration-300 after:w-0 group-hover:after:w-full
         "
       >
-        Tentang
+        About
       </a>
     </li>
     
@@ -87,7 +87,7 @@ useEffect(() =>{
         
         /* === KELAS GARIS BAWAH === */
         after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-violet-300 after:transition-all after:duration-300 after:w-0 group-hover:after:w-full
-      ">Proyek</a>
+      ">Project</a>
           </li>
           
         {/* KONTAK */}
@@ -103,7 +103,7 @@ useEffect(() =>{
         
         /* === KELAS GARIS BAWAH === */
         after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:bg-violet-300 after:transition-all after:duration-300 after:w-0 group-hover:after:w-full
-      ">Kontak</a>
+      ">Contact</a>
           </li>
           </ul>
     </div>

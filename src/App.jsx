@@ -33,7 +33,7 @@
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600 flex items-center gap-3 mb-6 bg-violet-600/70 w-fit p-4 rounded-2xl 
           shadow-inner border border-violet-700/40 backdrop-blur
           shadow-[0_0_35px_rgba(139,92,246,0.25)]
-          hover:shadow-[0_0_55px_rgba(139,92,246,0.45)] duration-300">Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i></a>
+          hover:shadow-[0_0_55px_rgba(139,92,246,0.45)] duration-300"> View project <i className="ri-arrow-down-line ri-lg"></i></a>
           </div>
         </div>
   {/* FOTO HERO FUTURISTIK */}
@@ -114,14 +114,14 @@
             <h1 className="text-4xl mb-1 text-black">
               5<span className="text-violet-500">+</span>
             </h1>
-            <p className="text-black">Proyek Selesai</p>
+            <p className="text-black">Project Completed</p>
           </div>
 
           <div>
             <h1 className="text-4xl mb-1 text-black">
               0<span className="text-violet-500">+</span>
             </h1>
-            <p className="text-black">Tahun Pengalaman</p>
+            <p className="text-black">Years of Experience</p>
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@
         {/* LOKASI */}
         <div className="bg-#fffff border border-violet-700/40 rounded-xl p-5 transition-all duration-300 hover:scale-[1.01] hover:-translate-y-1 hover:shadow-2xl hover:shadow-violet-500/50 hover:border-violet-500
         ">
-          <p className="text-sm opacity-70 mb-1 text-black">LOKASI</p>
+          <p className="text-sm opacity-70 mb-1 text-black">LOCATION</p>
           <p className="text-lg font-medium text-black">Toba, Sumatra Utara, Indonesia</p>
         </div>
 
@@ -275,7 +275,7 @@
       data-aos-duration="1000" data-aos-once="true">
     Skills</h1>
     <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose text-center opacity-50 mx-auto text-black" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true"> 
-    Berikut ini adalah beberapa tools yang biasa saya pakai untuk  pembuatan website</p>
+    The following are some of the tools that I usually use to create websites.</p>
     <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
 
       {listTools.map(tool => (
@@ -299,8 +299,8 @@
 <div className="proyek mt-32 py-10 bg-[#221F35]" id="proyek">
   <h1 className="text-center text-4xl font-bold mb-2 neon-purple" 
     data-aos="fade-up" 
-    data-aos-duration="1000">Proyek</h1>
-  <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Berikut ini beberapa proyek yang telah saya buat</p>
+    data-aos-duration="1000">Project</h1>
+  <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Here are some projects I have created</p>
   
   {/* 👇 PERHATIKAN: Menambahkan kelas untuk tinggi baris yang seragam */}
   {/* Gunakan 'grid-rows-2' atau 'grid-rows-3' jika Anda memiliki jumlah baris tetap, 
@@ -346,7 +346,7 @@
             </div>
             <div className="text-center">
               <a href={proyek.link} target="_blank" rel="noopener noreferrer" className="bg-violet-700 p-3 rounded-lg blog border border-zinc-600 hover:bg-violet-600"
-            >Lihat Proyek
+            >View project
             </a>
             </div>
           </div>
@@ -428,8 +428,8 @@
 
   {/* {Kontak} */}
   <div className="kontak mt-32 sm:p-10 p-0 bg-[#1F1A25]" id="kontak">
-    <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Kontak</h1>
-      <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Mari terhubung dengan saya
+    <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Contact</h1>
+      <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Let's connect with me
       </p>
 
       <form action="https://formsubmit.co/wikaromaulisiregar@gmail.com" method="POST" className="bg-zinc-800/70 p-10 sm:w-fit w:full mx-auto rounded-md 
@@ -439,19 +439,19 @@
       data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
-            <label className="font-semibold">Nama Lengkap</label>
-            <input type="text" name="nama" placeholder="Masukkan Nama..." className="border border-zinc-500 p-2 rounded-md" required/>
+            <label className="font-semibold">Full name</label>
+            <input type="text" name="nama" placeholder="Enter Name..." className="border border-zinc-500 p-2 rounded-md" required/>
           </div>
           <div className="flex flex-col gap-2">
             <label className="font-semibold">Email</label>
-            <input type="email" name="email" placeholder="Masukkan Email..." className="border border-zinc-500 p-2 rounded-md" required></input>
+            <input type="email" name="email" placeholder="Enter Email..." className="border border-zinc-500 p-2 rounded-md" required></input>
           </div>
           <div className="flex flex-col gap-2">
-            <label htmlFor="pesan" className="font-semibold">Pesan</label>
-            <textarea name="pesan" id="pesan" cols="45" rows="7" placeholder="Pesan..." className="border border-zinc-500 p-2 rounded-md" required></textarea>
+            <label htmlFor="pesan" className="font-semibold">Message</label>
+            <textarea name="pesan" id="pesan" cols="45" rows="7" placeholder="Message..." className="border border-zinc-500 p-2 rounded-md" required></textarea>
           </div>
           <div className="text-center">
-            <button type="submit" className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600">Kirim Pesan</button>
+            <button type="submit" className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600">Send message</button>
           </div>
         </div>
       </form>

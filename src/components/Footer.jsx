@@ -4,9 +4,9 @@ const Footer = () => {
       {/* MENU FOOTER */}
       <div className="flex justify-center">
         <div className="flex gap-10 text-lg font-bold">
-          <a href="#beranda" className="hover:text-violet-400 transition">Beranda</a>
-          <a href="#tentang" className="hover:text-violet-400 transition">Tentang</a>
-          <a href="#proyek" className="hover:text-violet-400 transition">Proyek</a>
+          <a href="#beranda" className="hover:text-violet-400 transition">Home Page</a>
+          <a href="#tentang" className="hover:text-violet-400 transition">About</a>
+          <a href="#proyek" className="hover:text-violet-400 transition">Project</a>
         </div>
       </div>
     </footer>
